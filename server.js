@@ -20,6 +20,11 @@ const connectionString = process.env.DATABASE_URL || 'postgresql://postgres:Linh
 //postgresql://student_admin:PxIKPgoXM2C1mDV7UG9ay0rftogpxrqL@dpg-d49men2dbo4c73aaqosg-a.oregon-postgres.render.com/studentdb_h01k
 const pool = new Pool({
     connectionString: connectionString,
+    // THÊM CẤU HÌNH SSL TẠI ĐÂY:
+    ssl: {
+        // Tùy chọn này cho phép kết nối ngay cả khi không có certificate (thường dùng trong môi trường dev/test)
+        rejectUnauthorized: false 
+    }
 });
 
 // Hàm khởi tạo Database
