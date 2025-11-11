@@ -17,7 +17,7 @@ app.use(express.json());
 // Để chạy thử Local, bạn có thể thay thế bằng chuỗi kết nối local của bạn:
 // Ví dụ: 'postgresql://user:password@host:port/database_name'
 const connectionString = process.env.DATABASE_URL || 'postgresql://postgres:Linh2011%40@localhost:5432/studentdb'; 
-
+//postgresql://student_admin:PxIKPgoXM2C1mDV7UG9ay0rftogpxrqL@dpg-d49men2dbo4c73aaqosg-a.oregon-postgres.render.com/studentdb_h01k
 const pool = new Pool({
     connectionString: connectionString,
 });
