@@ -1,0 +1,2 @@
+DATABASE_URL=postgresql://postgres:Linh2011%40@localhost:5432/studentdb
+#DATABASE_URL=postgresql://student_admin:PxIKPgoXM2C1mDV7UG9ay0rftogpxrqL@dpg-d49men2dbo4c73aaqosg-a.oregon-postgres.render.com/studentdb_h01k

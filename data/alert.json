@@ -1,0 +1,9 @@
+{
+  "com": {
+    "errorQuery": "Lỗi truy vấn",
+    "success": "Thành công",
+    "missingFieldInfo": "Thiếu trường thông tin",
+    "createSuccess": "Tạo thành công",
+    "deleteSuccess": "Xoá thành công"
+  }
+}
