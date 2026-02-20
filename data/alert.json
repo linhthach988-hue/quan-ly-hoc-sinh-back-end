@@ -4,6 +4,8 @@
     "success": "Thành công",
     "missingFieldInfo": "Thiếu trường thông tin",
     "createSuccess": "Tạo thành công",
-    "deleteSuccess": "Xoá thành công"
+    "deleteSuccess": "Xoá thành công",
+    "createTableSucces": "Bảng {0} đã được khởi tạo thành công!",
+    "errorInitDB": "Lỗi khi khởi tạo database:"
   }
 }

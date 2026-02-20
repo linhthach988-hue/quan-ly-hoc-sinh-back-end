@@ -1,7 +1,0 @@
-{
-  "students": {
-    "list": "SELECT * FROM students ORDER BY class_name",
-    "create": "INSERT INTO students (name, class_name, age) VALUES ($1, $2, $3) RETURNING id",
-    "delete": "DELETE students where id=$1"
-  }
-}

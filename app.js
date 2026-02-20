@@ -59,7 +59,8 @@ app.use(function (req, res, next) {
   next();
 });
 app.use("/students", studentRouter);
-
-app.listen(PORT, () => {
+const initializeDB = require("./controllers/studentController").initializeDB;
+app.listen(PORT, async () => {
   console.log(`Server đang chạy tại http://localhost:${PORT}`);
+  //await initializeDB({ pool }, { json: console.log });
 });
